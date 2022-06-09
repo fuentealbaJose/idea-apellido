@@ -1,5 +1,6 @@
 body {
-    background-image: url(../img/fondo.jpg);
+    /* background-image: url(../img/fondo.jpg); */
+    background-color: #EEFDFF;
     background-repeat: no-repeat;
     background-position: 100 100;
     background-position: center center;
@@ -105,8 +106,10 @@ background-color: rgb(255, 255, 255);
 @media screen and (max-width:768px)
 {
 .img {
-    width: 200px;
-    height: 200px;
+    display: flex;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
 } 
 .menu{
     display: flex;
@@ -121,3 +124,15 @@ background-color: rgb(255, 255, 255);
 }
 }
 
+h2{
+    text-align: center;
+} 
+
+.producto-destacado{
+    width: 900px;
+    height: 500px;
+}
+.carta{
+    width: 300px;
+    height: 350px;
+}
