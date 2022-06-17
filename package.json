@@ -1,0 +1,25 @@
+{
+  "name": "mirepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss sass/styles.scss css/styles.css",
+    "watch-css":"nodemon -e css -x \"npm run build-css\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuentealbaJose/idea-apellido.git"
+  },
+  "author": "jose fuentealba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuentealbaJose/idea-apellido/issues"
+  },
+  "homepage": "https://github.com/fuentealbaJose/idea-apellido#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
